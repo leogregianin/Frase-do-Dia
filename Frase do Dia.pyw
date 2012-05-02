@@ -64,7 +64,7 @@ class FrasedoDia(object):
                      "]"  : "",
                      "]]" : "",
                      }
-        def converte(s):
+        def converte(s): #closure
             for original, plain in colchetes.items():
                 s = s.replace(original, plain)
             return s
