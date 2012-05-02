@@ -1,0 +1,23 @@
+== Instalação ==
+Instalar Python >= 2.4 (http://www.python.org/download)
+Depois de desempacotar a Frase do Dia.zip, execute Frase do Dia.pyw
+
+== Características ==
+* Poucas características
+* Interface simples para abrir a frase do dia pelo site pt.wikiquote.org
+* Utiliza a API do MediaWiki através do pywikipediabot
+* Funciona somente para as citações do Wikiquote em Português
+* O software só é aberto depois de estabelecida a conexão com a internet.
+
+== Autores ==
+Leonardo Gregianin
+Walter Cruz
+
+== Licença ==
+MIT
+
+== Sofwares externos ==
+Python Wikipedia Bot -- http://pywikipediabot.sourceforge.net
+Simplejson -- http://undefined.org/python/#simplejson
+BeatifulSoup -- http://www.crummy.com/software/BeautifulSoup
+Tkinter -- Padrão no Python para Windows, em Linux pacote python-tkinter
