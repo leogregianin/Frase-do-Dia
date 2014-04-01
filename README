@@ -1,23 +1,26 @@
-== InstalaÁ„o ==
+Cita√ß√£o do dia pelo site wikiquote.org
+
+Wikiquote √© um comp√™ndio de cita√ß√µes livres das mais diversas fontes provenientes de pessoas not√°veis e obras criativas em todas as l√≠nguas. Wikiquote √© um projeto da Wikimedia Foundation onde tamb√©m faz parte a Wikipedia.
+
+Autores:
+Leonardo Gregianin <leogregianin@gmail.com>
+Walter Cruz <@waltercruz>
+
+== Instala√ß√£o ==
 Instalar Python >= 2.4 (http://www.python.org/download)
 Depois de desempacotar a Frase do Dia.zip, execute Frase do Dia.pyw
 
-== CaracterÌsticas ==
-* Poucas caracterÌsticas
-* Interface simples para abrir a frase do dia pelo site pt.wikiquote.org
-* Utiliza a API do MediaWiki atravÈs do pywikipediabot
-* Funciona somente para as citaÁıes do Wikiquote em PortuguÍs
-* O software sÛ È aberto depois de estabelecida a conex„o com a internet.
+== Caracter√≠sticas ==
+* Interface TKinter para abrir a frase do dia pelo site pt.wikiquote.org
+* Utiliza a API do MediaWiki atrav√©s do pywikipediabot
+* Implementado para as cita√ß√µes do Wikiquote em Portugu√™s
+* O software ficar√° em background at√© que seja estabelecida a conex√£o com a internet.
 
-== Autores ==
-Leonardo Gregianin
-Walter Cruz
-
-== LicenÁa ==
+== Licen√ßa ==
 MIT
 
 == Sofwares externos ==
 Python Wikipedia Bot -- http://pywikipediabot.sourceforge.net
 Simplejson -- http://undefined.org/python/#simplejson
 BeatifulSoup -- http://www.crummy.com/software/BeautifulSoup
-Tkinter -- Padr„o no Python para Windows, em Linux pacote python-tkinter
+Tkinter -- Padr√£o no Python para Windows, em Linux pacote python-tkinter
