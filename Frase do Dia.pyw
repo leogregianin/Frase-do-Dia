@@ -15,7 +15,7 @@ class FrasedoDia(object):
         year = time.strftime('%Y',now)
         month = meses[now.tm_mon - 1]
         day = now.tm_mday
-        self.today = '%s_de_%s' % (day, month)
+        self.today = '%s de %s' % (day, month)
         self._today = '%s de %s de %s' % (day, month, year)
         menubar = Menu(root)
         root.config(menu=menubar)
@@ -70,7 +70,7 @@ class FrasedoDia(object):
             return s
 
         site = wikipedia.getSite('pt', 'wikiquote')
-        self.template = 'Template:Frase_do_dia/%s' % self.today
+        self.template = 'Template:Frase do dia/%s' % self.today
         page = wikipedia.Page(site, self.template)
         text = page.get()
     
